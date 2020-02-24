@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    border: 0px;
+    width: 100%;
+
+}
+
+.part_0 {
+    background-color: gray;
+    height: 700px;
+    background-image: url("/img/Image-1.jpg");
+    background-size: 100%;
+}
+
+.menu_container {
+    position: fixed;
+    z-index: 0;
+    right: 20px;
+    top: 30px;
+}
+
+.menu_points {
+    text-decoration: none;
+    color: white;
+    float: right;
+    clear: both;
+    margin: 15px 20px 15px 0;
+    font-size: 15px;
+    font-family: Arial;
+    text-transform: uppercase;
+
+}
+
+.headline_0 {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    font-size: 80px;
+    font-family: PT Sans Caption;
+    color: white;
+}
+
+.part_a {
+    background-color: black;
+    height: 700px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.a1 {
+    width: 450px;
+    color: white;
+    line-height: 45px;
+    font-size: 1.4rem;
+    font-family: candara;
+
+}
+
+.part_a_image {
+    height: 500px;
+    width: 300px;
+    background-image: url(https://indyweek.com/downloads/71775/download/1.16-food-vegan-kitchen.jpg?cb=85a9abff677218d01c42d6127d9344ef&w=1024&h=);
+    background-size: 100%;
+    transition: 0.5s;
+    background-position: center;
+
+}
+
+.part_a_image:hover {
+    opacity: 0.3;
+    background-size: 120%;
+
+}
+
+.text {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+
+
+}
+
+.a_h1 {
+    text-align: center;
+    font-family: Times new roman;
+    font-size: 50px;
+
+}
+
+.part_b {
+    background-color: salmon;
+    height: 700px;
+
+}
+
+.part_b_image {
+
+    height: 200px;
+    width: 350px;
+    margin: 30px;
+    background-image: url(https://static01.nyt.com/images/2019/02/06/dining/06Hungry-slideshow-slide-B06X/06Hungry-slideshow-slide-B06X-superJumbo.jpg?quality=75&auto=webp&disable=upscale);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: transform .2s;
+    float: left;
+    clear: right;
+
+}
+
+.part_b_image:hover {
+    transform: scale(1.2);
+
+}
+
+.part_c {
+    background-color: thistle;
+    height: 700px;
+}
+#rating
+{
+    width: 300px;
+    height: 200px;
+    background-color: cadetblue;
+}
+.count
+{
+     line-height: 100px;
+  color:white;
+  margin-left:30px;
+  font-size:25px;
+}
+
+.part_5 {
+    background-color: deepskyblue;
+    height: 700px;
+}
+
+.part_6 {
+    background-color: lightgreen;
+    height: 700px;
+}
