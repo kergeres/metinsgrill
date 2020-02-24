@@ -10,7 +10,6 @@ body {
 }
 
 .part_0 {
-    background-color: gray;
     height: 700px;
     background-image: url("/img/video.mp4");
     background-size: 100%;
@@ -183,12 +182,85 @@ body {
     font-size: 25px;
 }
 
-.part_5 {
-    background-color: deepskyblue;
+.part_d {
+    background-color: black;
     height: 700px;
+    align-items: center;
+    display: flex;
+
+
+}
+.d_text_big_container
+{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    float: left;
+}
+.d_text_container
+{
+
+    width: 350px;
+    height: 500px;
+    margin-left: -30px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+    font-family: PT Sans Caption;
+}
+.usta
+{
+    color: white;
+}
+.img
+{
+    width: 60%;
+    float: left;
+
 }
 
-.part_6 {
-    background-color: lightgreen;
+.part_e {
+
+
+    background-image: url(../img/history.jpg);
+    background-size: 100%;
     height: 700px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
 }
+.e_text_container
+{
+    width: 60%;
+    height: 30%;
+    max-width: 80%;
+    background-color: black;
+    opacity: 0.6;
+    padding: 50px 70px;
+
+}
+.e_headline
+{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: PT Sans Caption;
+    margin: 0;
+}
+.e_text
+{
+    text-align:justify;
+    font-size: 20px;
+    font-family: PT Sans Caption;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
