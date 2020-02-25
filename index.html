@@ -5,19 +5,139 @@
     <title>Metin's Grill</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/mystlye.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
     <script type="text/javascript" src="js/js.js"></script>
     <meta name="description" content="This site is for Metin's Grill restaurant" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex" />
+
+    <style>
+    .slider {
+        max-width: 900px;
+        margin: 100px auto;
+    }
+    .slick-slide {
+      margin: 0px 20px;
+        width: 100%;
+    }
+    .slick-slide img {
+      width: 100%;
+    }
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+
+    .slick-active {
+      opacity: .5;
+    }
+    .slick-current {
+      opacity: 1;
+    }
+
+    .slick-next, .slick-prev{
+        width: 40px;
+        height: 40px;
+        background-color: #ECEAE0;
+        padding: 10px;
+        border-radius: 50px;
+        margin: 0 15px;
+        position: absolute;
+    }
+
+    .slick-next{
+        right: -80px;
+    }
+
+    .slick-prev{
+        left: -80px;
+    }
+
+    .slick-next:hover, .slick-next:focus{
+        background-color: rgb(223, 220, 207);
+    }
+
+    .slick-prev:hover{
+        background-color: rgb(223, 220, 207);
+    }
+    </style>
 </head>
 
 <body>
+    <div class="food-content" id="food-content">
+        <span class="exit" onclick="document.getElementById('food-content').style.display='none';">&times;</span>
+        <div class="food">
+            <div>
+                <div class="sth">
+                    <div class="half">
+                        <h3>Türk kahvesi</h3>
+                        <p>The most world-famous Turkish coffee (Türk kahvesi) is made by pulverizing freshly medium-roasted beans in a mortar and pestle, or grinding them very fine in a cylindrical brass coffee mill (kahve degirmeni). You can order Türk kahvesi one of four ways:
+                        <ul>
+                            <li>Sade - plain, no sugar (fairly bitter)</li>
+                            <li>Az sekerli - with a little sugar (takes off the bitter edge; less than a teaspoon per cup)</li>
+                            <li>Orta sekerli - with medium sugar (sweetish; about a teaspoon of sugar for each cup)</li>
+                            <li>Çok sekerli - with lots of sugar (quite sweet; two teaspoons of sugar or more)</li>
+                        </ul>
+                            </p>
+                    </div>
+                    <div class="half nd"><img src="img/coffee.jpg" alt="coffee"></div>
+                </div>
+            </div>
+            <div>
+                <div class="sth">
+                    <div class="half">
+                        <h3>Simit</h3>
+                        <p>Simit are a fast-food bread sold in the streets of Turkey. They are often eaten for a breakfast with cheese, olive, jam or yogurt. Simits are also great alone. They are light and flaky, backed to a golden brown color and topped with sesame seeds. Simits are often formed into rings and are sometimes braided.</p>
+                    </div>
+                    <div class="half nd">
+                        <img src="img/bagel.jpg" alt="bagel">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="sth">
+                    <div class="half">
+                        <h3>Doner Kebab</h3>
+                        <p>Döner kebab is fillets of meat stacked on a vertical spit and roasted on a vertical grill.  Döner means "turning" in Turkish.   The vertical spit is rotated, or turned, in front of the heat source (charcoal, gas or electric). When the meat directly opposite the heat source is properly roasted, the spit is rotated so that the cooked meat may be sliced off with a special doner  knife, and an uncooked portion of meat exposed to the fire. The supremo of döners is Iskender Kebap ("Alexander's Roast Lamb"), named for a chef in the city of Bursa who created the dish.  The lamb was originally raised on the thyme covered slopes of Mount Uludag, in Bursa, and is roasted à la döner, spread atop diced flat pide bread, then topped with savory tomato sauce and browned butter and served with a dollop of yogurt on the side.</p>
+                    </div>
+                    <div class="half nd st">
+                        <img src="img/barbecue.jpg" alt="kebab">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="sth">
+                    <div class="half">
+                        <h3>Lahmacum</h3>
+                        <p>Lahmacun is a thin yeast dough with meat filling. The almost obligatory ingredient of lahmacun is lemon juice, which is sprinkled just before serving. The traditional dish is baked on hot stones, but in the main versions it is baked in some parts. That is why the characteristic spicy taste and aroma that the real lahmacun features are supported cannot be created in the right conditions.</p>
 
+                        <p>This turkish cuisine is usually prepared with mutton or lamb, but you can also order pies with other types of meat. The name of the dish comes from the Assyrian language and it was the Assyrians who were supposedly the creators of this dish. They ate it 2,000 years ago and later passed the recipe to the Greeks.</p>
+                    </div>
+                    <div class="half nd">
+                        <img src="img/lahmacun.jpg" alt="lahmacum">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="sth">
+                    <div class="half">
+                        <h3>Misir</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis magna et lorem dignissim pulvinar quis ut metus. Pellentesque eu magna arcu. Suspendisse a diam sem. Donec erat nisl, mollis ut facilisis et, blandit a leo. In consectetur mauris in faucibus vehicula. Integer sollicitudin porta nisl, egestas accumsan eros feugiat auctor.</p>
+                    </div>
+                    <div class="half nd">
+                        <img src="img/corn.jpg" alt="misir">
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
 
     <main>
-
-
-
 
         <section class="part_0" id="introduction">
 
@@ -39,37 +159,17 @@
             <a class="headline_0">Metin's Grill</a>
         </section>
 
-        <section class="part_a" id="History">
-            <div class="a1">
-                <h1 class="a_h1">Just text</h1>
-                <p>Turkish food is rated as a one of the best cuisines in the world, along with French and Chinese. It can be said that everything had started during the 500 years of Ottoman rule that Turkish culinary skills were development. They can owe to easily access to fresh and various sea food, vegetables and spices.</p>
+        <section class="part_e" id="History">
+
+
+            <div class="e_text_container">
+
+                <h2 class="e_headline">How it all started</h2>
+                <p class="e_text">Metin's parents used to live in Turkey since 1980, that year everything had changed. They came to Denmark and in 1990 opened a restaurant in Viby Square. Metin got a leisure job in the restaurant and his 2 brothers helped when needed. In the beginning, the restaurant had just 10 square meters and now there are seats for 90 people.
+                </p>
             </div>
 
-            <div class="part_a_image">
-                <p class="text">Fucking delicious</p>
-            </div>
-
         </section>
-
-        <section class="part_b" id="Metin">
-
-            <div class="part_b_image"></div>
-            <div class="part_b_image"></div>
-            <div class="part_b_image"></div>
-            <div class="part_b_image"></div>
-            <div class="part_b_image"></div>
-            <div class="part_b_image"></div>
-
-
-        </section>
-
-
-        <section class="part_c" id="Cuisine">
-
-            <div id="rating"><span class="count">200</span></div>
-
-        </section>
-
 
 
         <section class="part_d" id="Restaurant">
@@ -100,17 +200,217 @@
 
 
         </section>
+ <section class="part_c" id="Cuisine">
 
-        <section class="part_e" id="Location">
+            <div class="gallery-wrapper">
+                <div class="column first">
+                    <div class="content" onclick="show()" id="img1">
+                        <img src="img/coffee.jpg" alt="coffee">
+                        <div class="food-title">
+                            <h4>Türk kahvesi</h4>
+                        </div>
+                    </div>
+                    <div class="content" onclick="show()">
+                        <img src="img/bagel.jpg" alt="bagel">
+                        <div class="food-title">
+                            <h4>Simit</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="column second">
+                    <div class="content2" onclick="show()">
+                        <img src="img/barbecue.jpg" alt="kebab">
+                        <div class="food-title">
+                            <h4>Doner Kebab</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="column third">
+                    <div class="content" onclick="show()">
+                        <img src="img/lahmacun.jpg" alt="lahmacum">
+                        <div class="food-title">
+                            <h4>Lahmacun</h4>
+                        </div>
+                    </div>
+                    <div class="content" onclick="show()">
+                        <img src="img/corn.jpg" alt="corn">
+                        <div class="food-title">
+                            <h4>Misir</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
-            <div class="e_text_container">
-
-<h2 class="e_headline">How it all started</h2>
-                <p class="e_text">Metin's parents used to live in Turkey since 1980, that year everything had changed. They came to Denmark and in 1990 opened a restaurant in Viby Square. Metin got a leisure job in the restaurant and his 2 brothers helped when needed. In the beginning, the restaurant had just 10 square meters and now there are seats for 90 people.
+        </section>
 
 
-                </p>
+
+        <section class="part_f" id="Goals">
+
+            <div class="f_text_container">
+
+                <div class="f_left_part">
+                    <h2 class="f_headline">Metin’s Goals</h2>
+
+                    <p class="f_text"> <br> Metin always has the courage for more.<br><br>
+
+                        It started in Bazar Vest with 10 square meters, and then Metin´s Grill has otherwise been expanded … and expanded.<br><br>
+
+                        Metin wants to see the end result in the satisfied faces of the guests.<br><br>
+
+                        If he doesn’t see happy guests, he’ll do everything to send them out with a smile on their lips.
+
+
+
+                    </p>
+                </div>
+
+                <div class="f_right_part">
+                    <p class="f_text">
+
+                        <br><br><br><br><br>
+
+                        There are three points that just need to be in place:<br><br>
+
+                        The food itself is 50% of the experience, while the remaining 50% is good service and fair prices.</p>
+
+                    <img src="img/K%C3%A9p2.png" class="f_img">
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="part_h" id="Location">
+
+            <div class="g_h_text_container">
+
+                <h2 class="g_h_hd">Aarhus Street Food
+
+                </h2>
+
+                <br><br>Aarhus Street Food is a permanent street food market in Aarhus, which give locals and tourists in Aarhus the opportunity to enjoy all various kinds of street food from more than 30 street kitchens. <br><br>
+
+                Aarhus Street Food was an instant hit when it opened last summer and of course Metin’s Grill were part of it as well.<br><br>
+
+                According to all the reviews customers of Metin’s Grill were really satisfied and they can not wait for the next summer.
+
+
+
+
+
+
+
+
+            </div>
+
+
+        </section>
+
+        <section class="part_g">
+
+            <div class="g_h_text_container">
+
+                <h2 class="g_h_hd">Aarhus City Center
+                </h2>
+
+                <br><br> Denmark’s second city has long lived in Copenhagen’s shadow, but its cultural coronation has put a spring in its step, and increasing numbers of visitors have started succumbing to its charms.
+                <br><br><br>
+
+                Aarhus is buzzing with new bars, cafes and restaurants and Metin’s next stop is to open another restaurant in central Aarhus as well.<br><br><br>
+
+
+
+                You may look forward to it!
+
+                <img src="/img/map.svg" class="map">
+
+
+            </div>
+
+
+
+
+        </section>
+
+        <section class="footer_bg">
+
+            <div class="footer_container">
+
+
+                <div class="footer_headline">
+                    <h2 class="footer_hl">Location contact info</h2>
+
+
+
+                </div>
+
+
+                <div class="footer_hours">
+                    <table class="hours_table">
+
+                        <tr>
+                            <td>Mon</td>
+                            <td></td>
+                            <td> closed</td>
+
+                        </tr>
+                        <tr>
+                            <td>Tue</td>
+                            <td></td>
+                            <td> 9-21</td>
+
+                        </tr>
+                        <tr>
+                            <td>Wed</td>
+                            <td></td>
+                            <td> 9-21</td>
+
+                        </tr>
+                        <tr>
+                            <td>Thu</td>
+                            <td></td>
+                            <td> 9-21</td>
+
+                        </tr>
+                        <tr>
+                            <td>Fri</td>
+                            <td></td>
+                            <td>9-23</td>
+
+                        </tr>
+                        <tr>
+                            <td>Sat</td>
+                            <td> </td>
+                            <td> 9-23</td>
+
+                        </tr>
+                        <tr>
+                            <td>Sun</td>
+                            <td> </td>
+                            <td> 9-21</td>
+
+                        </tr>
+
+                    </table>
+
+
+                </div>
+
+
+
+                <div class="moreinfo">
+                    Bazar Vest | Edwin Rahrs Vej 32,
+                    Brabrand, Aarhus 8220 <br><br>
+                    +45 53 50 15 11
+
+
+
+                </div>
+
+
 
             </div>
 
@@ -121,6 +421,27 @@
     <footer>
 
     </footer>
-</body>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
+    <script>
 
-</html>
+
+        $(document).ready(function(){
+            $('.food').slick({
+                infinite: true,
+              speed: 300,
+                autoplay: false,
+                arrows: true,
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            });
+        });
+    </script>
+    <script>
+        var food = document.getElementById("food-content");
+
+        function show(){
+            food.style.display="block";
+        }
+    </script>
+</body></html>

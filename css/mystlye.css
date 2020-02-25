@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    font-family: PT Sans Caption;
 }
 
 body {
@@ -86,7 +87,6 @@ body {
     top: 150px;
     left: 200px;
     font-size: 80px;
-    font-family: PT Sans Caption;
     color: white;
 }
 
@@ -206,7 +206,6 @@ body {
     margin-top: 30px;
     font-size: 20px;
     color: white;
-    font-family: PT Sans Caption;
 }
 .usta
 {
@@ -236,7 +235,7 @@ body {
     height: 30%;
     max-width: 80%;
     background-color: black;
-    opacity: 0.6;
+    opacity: 0.7;
     padding: 50px 70px;
 
 }
@@ -245,22 +244,332 @@ body {
     color: white;
     text-align: center;
     font-size: 40px;
-    font-family: PT Sans Caption;
     margin: 0;
 }
 .e_text
 {
     text-align:justify;
     font-size: 20px;
-    font-family: PT Sans Caption;
+    color: white;
+}
+
+.part_f
+{
+    background-image: url(../img/goals.jpg);
+    background-size: 100%;
+    height: 800px;
+
+    display: flex;
+}
+
+.f_text_container
+{
+    width: 1000px;
+    height: 700px;
+    background-color: black;
+    opacity: 0.7;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.f_left_part
+{
+    width: 40%;
+    height: 70%;
+    padding: 20px 60px;
+}
+
+.f_right_part
+{
+   width: 40%;
+    height: 70%;
+    padding: 20px 60px;
+
+}
+
+.f_headline
+{
+    color: white;
+    font-size: 40px;
+
+}
+
+.f_text
+{
+    color: white;
+    font-size: 20px;
+
+}
+
+.f_img
+{
+    max-width: 70%;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.part_g
+{
+    height: 700px;
+    background-image: url(../img/city_c.jpg);
+    background-size: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.g_h_text_container
+{
+    width: 700px;
+    height: 400px;
+    background-color: black;
+    margin: 50px 0 50px 50px;
+    opacity: 0.7;
+    color: white;
+    font-size: 20px;
+    padding: 100px 150px;
+
+}
+
+.part_h
+{
+    height: 700px;
+    background-image: url(../img/street_food.jpg);
+    background-size: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.map
+{
+    width: 110px;
+    position: absolute;
+    right: 350px;
+
+}
+
+.footer_bg
+{
+    background-image: url(../img/footer_bg.jpg);
+    background-size: 100%;
+    height: 800px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer_container
+{
+    height: 360px;
+    width: 600px;
+    background-color: black;
+    opacity: 0.7;
+    margin: 0 0 40px 40px;
+}
+
+
+.footer_headline
+{
+    width: 90%;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.footer_hl
+{
+    margin: 0;
+    color: white;
+    font-size: 45px;
+}
+
+.footer_hours
+{
+    width: 30%;
+    height: 300px;
+     margin-left: 30px;
+    float: left;
+    clear: left;
+    margin-right: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.moreinfo
+{
+    width: 50%;
+    height: 300px;
+    float: left;
+    margin-left: 30px;
+    margin-top: -50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+.hours_table
+{
+    font-size: 20px;
     color: white;
 }
 
 
 
+/*-----------------*/
 
 
 
 
+/*CUISINE*/
+
+.gallery-wrapper{
+    max-width: 900px;
+    padding: 30px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.column{
+    width: 33.3%;
+}
+
+.content{
+    width: 95%;
+    height: 200px;
+    margin: 10px 0;
+    position: relative;
+    transition: 0.3s;
+}
+
+.content2{
+    width: 95%;
+    height: 400px;
+    margin: 10px 0;
+    overflow: hidden;
+    position: relative;
+    transition: 0.3s;
+}
+
+.content img{
+    width: 100%;
+    height: auto;
+}
+
+.content2 img{
+    width: 100%;
+    height: auto;
+}
+
+.food-title{
+    position: absolute;
+    display: block;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    background-color: rgb(0, 0, 0, 0.6);
+    cursor: pointer;
+    transition: .3s;
+
+}
+
+.content2 .food-title{
+    height: 100%;
+}
+
+.content2 .food-title h4{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.food-title:hover{
+    opacity: 1;
+}
+
+.food-title h4{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -40%);
+}
 
 
+.food{
+    max-width: 900px;
+    margin: 50px auto 20px auto;
+    text-align: center;
+    color: #3E2B24;
+}
+
+.food > div {
+    width: 100%;
+    height: 400px;
+    background-color: #ECEAE0;
+}
+
+.sth{
+    display: flex;
+    min-height: 100%;
+    width: 100%;
+}
+
+.exit{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.exit:hover{
+    color: rgb(219, 219, 219);
+}
+
+.half{
+    width: 50%;
+    height: 390px;
+    padding: 20px 10px;
+    text-align: left;
+}
+
+.half img{
+    width: 100%;
+    height: auto;
+}
+
+.half h3{
+    font-size: 30px;
+    color: #3E2B24;
+}
+
+.st img{
+    height: 80%;
+    margin: auto;
+    width: auto;
+}
+
+.food-content{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.6);
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+/***END CUISINE***/
