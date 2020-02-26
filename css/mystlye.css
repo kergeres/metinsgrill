@@ -33,14 +33,14 @@ body {
 }
 
 .scroll_text {
-    font-size: 40px;
+    font-size: 25px;
     color: white;
-    margin: 0 0 0 -90px;
+    margin: 0 0 0 -70px;
     ;
 }
 
 .down {
-    width: 100px;
+    width: 80px;
 }
 
 .footer_bg {
@@ -212,7 +212,7 @@ body {
 
 .part_c {
     background-color: #3E2B24;
-    height: 700px;
+    height: 500px;
 }
 
 #rating {
